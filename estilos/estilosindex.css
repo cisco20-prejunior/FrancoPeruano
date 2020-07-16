@@ -88,10 +88,10 @@ header {
 			hsla(0, 77%, 44%, 0.246),
 			hsla(261, 53%, 19%, 0.582)
 		),
-		url(https://i.ytimg.com/vi/jlkKItCI25c/maxresdefault.jpg);
+		url(https://scontent.flim8-1.fna.fbcdn.net/v/t1.0-9/95032125_116990196654366_6550417346555543552_n.jpg?_nc_cat=108&_nc_sid=110474&_nc_eui2=AeGRczqGK0VmgI3pTVXYkyICMEkQz3Mll-cwSRDPcyWX57xqpySs--DmJYaim4dypjjI6cfO41sioo1r5UD6F7Iz&_nc_ohc=GcwKj2BbJA4AX-wq4qP&_nc_ht=scontent.flim8-1.fna&oh=4d7bb46d70ba52fe93d91ea4b3298fc5&oe=5F30CF8F);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
-	background-attachment: fixed;
+	/* background-attachment: fixed; */
 	position: relative;
 }
 header .textos-header {
