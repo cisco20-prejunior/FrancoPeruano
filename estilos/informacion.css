@@ -99,15 +99,13 @@ body {
 header {
 	width: 100%;
 	height: 100vh;
-	background: #8360c3;
-	/* fallback for old browsers */
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(
 			to right,
-			hsla(0, 77%, 44%, 0.246),
-			hsla(261, 53%, 19%, 0.582)
+			rgba(21, 101, 192, 0.63),
+			hsla(2, 65%, 44%, 0.63)
 		),
-		url(https://i.ytimg.com/vi/jlkKItCI25c/maxresdefault.jpg);
+		url(../imagenes/portada.jpg);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	background-size: cover;
 	background-attachment: fixed;
