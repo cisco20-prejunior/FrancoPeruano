@@ -196,7 +196,17 @@ footer {
 .content-foo p {
 	color: #fff;
 }
-
+.redes {
+	width: 100%;
+	text-align: center;
+	height: 60px;
+}
+.fa-facebook {
+	text-align: center;
+	margin: 10px 0 10px 0;
+	font-size: 30px;
+	color: #cdd5d9;
+}
 .titulo-final {
 	text-align: center;
 	font-size: 24px;

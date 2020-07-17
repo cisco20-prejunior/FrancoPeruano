@@ -185,58 +185,29 @@ main .sobre-nosotros {
 
 .portafolio {
 	background: #f2f2f2;
+	padding-top: 30px;
+	padding-bottom: 50px;
 }
-
-.galeria-port {
+.titulo__carrusel {
+	color: #642a73;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.carrusel {
+	width: 90%;
 	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-}
-
-.imagen-port {
-	width: 15%;
-	height: 200px;
-	margin-bottom: 10px;
-	overflow: hidden;
-	position: relative;
-	cursor: pointer;
-	box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.5);
-}
-
-.imagen-port > img {
-	width: 100%;
-	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
-	display: block;
-}
-
-.hover-galeria {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	/* transform: scale(0) */
-	background: hsla(170, 57%, 61%, 0.616);
-	transition: transform 0.5s;
-	display: flex;
-	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	margin: auto;
+	justify-content: center;
 }
-
-.hover-galeria img {
-	width: 50px;
+#img {
+	width: 70%;
+	height: 400px;
 }
-
-.hover-galeria p {
-	color: white;
+.btn {
+	font-size: 4em;
 }
-
-.imagen-port:hover .hover-galeria {
-	transform: scale(0);
-}
-
 /* clients */
 .cards {
 	display: flex;
@@ -339,7 +310,17 @@ footer {
 	padding-bottom: 5px;
 	margin-bottom: 10px;
 }
-
+.redes {
+	width: 100%;
+	text-align: center;
+	height: 60px;
+}
+.fa-facebook {
+	text-align: center;
+	margin: 10px 0 10px 0;
+	font-size: 30px;
+	color: #cdd5d9;
+}
 .content-foo p {
 	color: #fff;
 }
