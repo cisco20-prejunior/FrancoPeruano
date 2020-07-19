@@ -7,7 +7,7 @@ let imagenes = [
 	"imagenes/imag6.jpg",
 ];
 
-let imagen = document.getElementById("img");
+let img = document.getElementById("img");
 
 let order = 0;
 
@@ -17,7 +17,7 @@ function siguiente() {
 	} else {
 		order += 1;
 	}
-	imagen.src = imagenes[order];
+	img.src = imagenes[order];
 }
 
 function anterior() {
@@ -26,5 +26,5 @@ function anterior() {
 	} else {
 		order -= 1;
 	}
-	imagen.src = imagenes[order];
+	img.src = imagenes[order];
 }
