@@ -20,11 +20,21 @@
 	.imagen-about-us {
 		width: 90%;
 	}
+	/* Ambientes */
 
-	/* Galeria */
-
-	.imagen-port {
-		width: 44%;
+	.carrusel {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin: auto;
+		justify-content: center;
+	}
+	#img {
+		width: 60%;
+		height: 30%;
+	}
+	.btn {
+		font-size: 3em;
 	}
 
 	/* Clientes */
@@ -83,12 +93,22 @@
 		width: 99%;
 	}
 
-	/* Galeria */
+	/* Ambientes */
 
-	.imagen-port {
-		width: 95%;
+	.carrusel {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		margin: auto;
+		justify-content: center;
 	}
-
+	#img {
+		width: 60%;
+		height: 20%;
+	}
+	.btn {
+		font-size: 3em;
+	}
 	/* Clients */
 
 	.cards .card {

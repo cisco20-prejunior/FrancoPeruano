@@ -24,6 +24,11 @@
 		flex-flow: column wrap;
 		justify-content: space-evenly;
 	}
+	.mision,
+	.vision {
+		margin: auto;
+		width: 70%;
+	}
 	.titulo {
 		order: 0;
 	}

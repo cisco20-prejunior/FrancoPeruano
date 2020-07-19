@@ -105,7 +105,9 @@ main .sobre-nosotros {
 }
 
 /* galeria */
-
+.fas:hover {
+	cursor: pointer;
+}
 .portafolio {
 	background: #f2f2f2;
 	padding-top: 30px;
@@ -118,18 +120,20 @@ main .sobre-nosotros {
 	margin-bottom: 60px;
 }
 .carrusel {
-	width: 90%;
+	width: 80%;
 	display: flex;
 	align-items: center;
 	margin: auto;
 	justify-content: center;
 }
 #img {
-	width: 70%;
+	width: 80%;
 	height: 400px;
 }
 .btn {
+	color: rgb(54, 52, 52);
 	font-size: 4em;
+	padding: 5px;
 }
 /* clients */
 .cards {

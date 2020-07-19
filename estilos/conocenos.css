@@ -86,7 +86,7 @@ header .textos-header {
 .vision {
 	width: 45%;
 	display: inline-block;
-	margin: auto;
+	padding-bottom: 10px;
 }
 .mision_p {
 	text-align: justify;
