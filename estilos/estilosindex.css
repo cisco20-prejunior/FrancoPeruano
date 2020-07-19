@@ -50,18 +50,19 @@ body {
 .textos-header {
 	position: relative;
 	padding: 0;
-	margin: auto;
+	font-size: 50px;
 }
 
 .textos-header h1 {
-	font-size: 50px;
+	font-size: 1.4em;
 	color: white;
+	margin-bottom: 0;
 }
 
 .textos-header h2 {
-	font-size: 30px;
+	font-size: 1em;
 	color: white;
-	font-weight: 300px;
+	padding-bottom: 0;
 }
 /* about-us */
 
@@ -128,7 +129,7 @@ main .sobre-nosotros {
 }
 #img {
 	width: 80%;
-	height: 400px;
+	height: 450px;
 }
 .btn {
 	color: rgb(54, 52, 52);

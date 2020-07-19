@@ -3,8 +3,6 @@ let imagenes = [
 	"imagenes/imag2.jpg",
 	"imagenes/imag3.jpg",
 	"imagenes/imag4.jpg",
-	"imagenes/imag5.jpg",
-	"imagenes/imag6.jpg",
 ];
 
 let img = document.getElementById("img");
