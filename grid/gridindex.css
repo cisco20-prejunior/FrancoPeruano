@@ -26,18 +26,17 @@
 	/* Ambientes */
 
 	.carrusel {
-		width: 100%;
+		width: 80%;
 		display: flex;
 		align-items: center;
 		margin: auto;
 		justify-content: center;
 	}
-	#img {
-		width: 80%;
-		height: 30%;
+	.carruselint img {
+		height: 40%;
 	}
 	.btn {
-		font-size: 3em;
+		font-size: 4em;
 	}
 
 	/* Clientes */
@@ -105,8 +104,7 @@
 		margin: auto;
 		justify-content: center;
 	}
-	#img {
-		width: 80%;
+	.carruselint img {
 		height: 20%;
 	}
 	.btn {
