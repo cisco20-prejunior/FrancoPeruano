@@ -13,12 +13,17 @@
 	display: flex;
 }
 @media screen and (max-width: 900px) {
+	.textos-header h1 {
+		font-size: 3em;
+		color: white;
+	}
 	.parrafos {
+		display: inline-block;
 		text-align: justify;
-		max-width: 60%;
+		width: 70%;
 		order: 2;
-		padding-top: 1em;
-		padding-bottom: 1em;
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
 	}
 	.contenido {
 		flex-flow: column wrap;
@@ -35,14 +40,19 @@
 	.imagen {
 		order: 1;
 	}
-	.mision_p {
-		text-align: justify;
-		width: 100%;
+	.img_director {
+		width: 300px;
+		height: 450px;
+		margin-bottom: 1em;
+		margin: auto;
 	}
 }
 @media screen and (max-width: 540px) {
-	.imagen {
-		max-width: 80%;
-		margin-bottom: 1em;
+	.textos-header h1 {
+		font-size: 2em;
+		color: white;
+	}
+	.img_director {
+		height: 450px;
 	}
 }
