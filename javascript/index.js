@@ -10,29 +10,7 @@ let preIm = document.getElementById("img2");
 let postIm = document.getElementById("img3");
 let order = 0;
 
-function cambio() {
-	imagen.src = postIm.src;
-	imagen.className = "";
-	postIm.className = "";
-}
-function seguir() {
-	imagen.src = preIm.src;
-	imagen.className = "";
-	preIm.className = "";
-}
 function siguiente() {
-	if (order + 2 > imagenes.length) {
-		order = 0;
-	} else {
-		order += 1;
-	}
-	preIm.src = imagenes[order];
-	imagen.className = "img3";
-	preIm.className = "img3";
-	setTimeout(seguir, 850);
-}
-
-function anterior() {
 	if (order === 0) {
 		order = imagenes.length - 1;
 	} else {
@@ -41,5 +19,27 @@ function anterior() {
 	postIm.src = imagenes[order];
 	imagen.className = "img1";
 	postIm.className = "img1";
+	function cambio() {
+		imagen.src = postIm.src;
+		imagen.className = "";
+		postIm.className = "";
+	}
 	setTimeout(cambio, 850);
+}
+
+function anterior() {
+	if (order + 2 > imagenes.length) {
+		order = 0;
+	} else {
+		order += 1;
+	}
+	preIm.src = imagenes[order];
+	imagen.className = "img3";
+	preIm.className = "img3";
+	function seguir() {
+		imagen.src = preIm.src;
+		imagen.className = "";
+		preIm.className = "";
+	}
+	setTimeout(seguir, 850);
 }
