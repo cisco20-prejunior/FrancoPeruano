@@ -14,7 +14,7 @@
 }
 @media screen and (max-width: 900px) {
 	.textos-header h1 {
-		font-size: 3em;
+		font-size: 3.5em;
 		color: white;
 	}
 	.parrafos {
@@ -49,10 +49,24 @@
 }
 @media screen and (max-width: 540px) {
 	.textos-header h1 {
-		font-size: 2em;
+		font-size: 2.3em;
 		color: white;
 	}
 	.img_director {
-		height: 450px;
+		width: 250px;
+		height: 350px;
+	}
+	.img_historia {
+		width: 90%;
+		height: 300px;
+		padding: 0;
+	}
+	@media screen and (max-width: 400px) {
+		.img_historia {
+			height: 200px;
+		}
+		.parrafos {
+			width: 80%;
+		}
 	}
 }

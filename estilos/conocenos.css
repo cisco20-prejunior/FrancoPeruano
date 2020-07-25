@@ -1,5 +1,5 @@
 img {
-	border-radius: 20%;
+	border-radius: 10%;
 }
 
 body {
@@ -72,13 +72,12 @@ figure {
 .img_director {
 	width: 350px;
 	height: 400px;
-	margin-bottom: 1em;
-	margin: auto;
+	padding-bottom: 1em;
 }
 .img_historia {
 	width: 450px;
 	height: 300px;
-	margin-bottom: 1em;
+	padding-bottom: 1em;
 	margin: auto;
 }
 
