@@ -56,19 +56,6 @@ header .textos-header {
 	width: 100%;
 }
 /* Noticias */
-.not_ind > h3 {
-	display: inline-block;
-	width: 100%;
-	color: #642a73;
-	font-size: 40px;
-	text-align: center;
-}
-.not_ind > p {
-	display: inline-block;
-	padding-top: 2em;
-	width: 80%;
-	margin: auto;
-}
 .not_ind > img {
 	width: 60%;
 	height: 70%;

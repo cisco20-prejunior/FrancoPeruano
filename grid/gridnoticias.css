@@ -1,8 +1,7 @@
 .not_fran {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-row: 3fr;
-	justify-content: right;
+	grid-row: repeat (3, 1fr);
 	align-content: space-evenly;
 }
 
