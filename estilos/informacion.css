@@ -14,11 +14,11 @@ body {
 /* hearder */
 
 header {
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	background: #b92b27;
 	background: linear-gradient(to right, #1565c09f, #b92c2786),
-		url(../imagenes/portada.jpg);
+		url(../imagenes/portada.png);
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;

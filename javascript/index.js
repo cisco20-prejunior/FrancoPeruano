@@ -43,3 +43,21 @@ function anterior() {
 	}
 	setTimeout(seguir, 850);
 }
+
+addEventListener("scroll", () => {
+	let services = document.getElementsByClassName("servicio-ind");
+	for (let i = 0; i < services.length; i++) {
+		let clase = services[i].classList.contains("animate__animated");
+		let distancia = Math.round(services[i].getBoundingClientRect().top);
+
+		if (screen.width <= 900) {
+			if (distancia < 750 && !clase) {
+				services[i].className += " animate__animated animate__fadeInLeft";
+			}
+		} else {
+			if (distancia < 750 && !clase) {
+				services[i].className += " animate__animated animate__fadeInUp";
+			}
+		}
+	}
+});
