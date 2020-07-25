@@ -72,13 +72,13 @@ figure {
 .img_director {
 	width: 350px;
 	height: 400px;
-	margin-bottom: 1em;
+	padding-bottom: 1em;
 	margin: auto;
 }
 .img_historia {
 	width: 450px;
 	height: 300px;
-	margin-bottom: 1em;
+	padding-bottom: 1em;
 	margin: auto;
 }
 
