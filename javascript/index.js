@@ -51,7 +51,7 @@ addEventListener("scroll", () => {
 		let distancia = Math.round(services[i].getBoundingClientRect().top);
 
 		if (screen.width <= 900) {
-			if (distancia < 800 && !clase) {
+			if (distancia < 850 && !clase) {
 				services[i].className += " animate__animated animate__fadeInLeft";
 			}
 		} else {
