@@ -45,11 +45,11 @@ function anterior() {
 }
 
 addEventListener("scroll", () => {
+	// animaciones de los servicios en la parte inferios del index
 	let services = document.getElementsByClassName("servicio-ind");
 	for (let i = 0; i < services.length; i++) {
 		let clase = services[i].classList.contains("animate__animated");
 		let distancia = Math.round(services[i].getBoundingClientRect().top);
-
 		if (screen.width <= 900) {
 			if (distancia < 850 && !clase) {
 				services[i].className += " animate__animated animate__fadeInLeft";
@@ -60,4 +60,23 @@ addEventListener("scroll", () => {
 			}
 		}
 	}
+	// Cambiar la navegación de estatcia a fixed
+	// let distanciaHeader = document.getElementById("navegacion-static");
+
+	// if (distanciaHeader != null) {
+	// 	let distancia = Math.round(distanciaHeader.getBoundingClientRect().bottom);
+	// 	let menuInterno = document.getElementById("menu-static");
+	// 	if (distancia <= 5) {
+	// 		distanciaHeader.id = "navegacion";
+	// 		menuInterno.id = "menu";
+	// 	}
+	// } else {
+	// 	let distanciaHeader = document.getElementById("navegacion");
+	// 	let distancia = Math.round(distanciaHeader.getBoundingClientRect().bottom);
+	// 	let menuInterno = document.getElementById("menu");
+	// 	if (distancia >= 6) {
+	// 		distanciaHeader.id = "navegacion-static";
+	// 		menuInterno.id = "menu-static";
+	// 	}
+	// }
 });

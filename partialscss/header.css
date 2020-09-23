@@ -28,6 +28,8 @@
 .menu > li {
 	position: relative;
 	display: inline-block;
+	text-decoration: none;
+	margin: auto;
 }
 .menu > li > a {
 	display: block;
@@ -45,41 +47,73 @@
 	font-size: 15px;
 	color: rgb(199, 16, 16);
 }
-/* submenu */
-.submenu {
-	padding-left: 10px;
-	position: absolute;
-	opacity: 0;
-	background-color: white;
+/* Navegacion que no está fija en la página */
+#navegacion-static {
 	width: 100%;
-	font-size: 15px;
-	visibility: hidden;
-	z-index: 10;
-	padding: 0;
+	text-align: left;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 100;
+	background-color: white;
+	border-bottom: solid rgb(223, 223, 223) 0.5px;
 }
-.submenu .sub_item a {
-	padding: 1em;
-	color: #ffff;
+#menu-static {
+	text-align: center;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+#menu-static > li {
+	position: relative;
+	display: inline-block;
+	margin: auto;
+}
+#menu-static > li > a {
+	display: block;
+	margin: 10px 30px;
 	font-family: Arial, Helvetica, sans-serif;
 	text-decoration: none;
-	text-align: left;
-	transition: all 0.2s;
+	transition: all 0.2s ease;
 	color: black;
-	display: block;
+	font-size: 20px;
 }
+#menu-static li a:hover {
+	color: rgb(199, 16, 16);
+}
+/* desplegar el submenu  */
+.submenu {
+	text-align: left;
+	position: absolute;
+	background: #fff;
+	width: 80%;
+	display: none;
+	opacity: 0;
+	transition: opacity 0.5s;
+	font-size: 18px;
+}
+
+.submenu li a {
+	display: block;
+	padding: 15px 0 15px 0;
+	color: black;
+	text-decoration: none;
+	margin: 0;
+}
+
 .menu li:hover .submenu {
-	visibility: visible;
+	display: block;
 	opacity: 1;
 }
-.submenu .sub_item a:hover {
-	background-color: black;
-	color: white;
-}
 @media screen and (max-width: 900px) {
+	w
 	/* menu */
 	.submenu,
 	.menu {
 		font-size: 15px;
+	}
+	.submenu {
+		background-color: rgb(235, 233, 233);
 	}
 	.navegacion_contenedor #label {
 		visibility: visible;
@@ -121,30 +155,6 @@
 	#check:checked ~ .navegacion {
 		visibility: visible;
 		max-width: 50%;
-	}
-	/* submenu */
-	.submenu {
-		padding-left: 15px;
-		position: absolute;
-		visibility: hidden;
-		opacity: 0;
-		transition: all 0.2s ease-in-out;
-		background-color: rgb(235, 233, 233);
-	}
-	.submenu .sub_item a {
-		display: block;
-		padding: 15px 0px 15px 5px;
-		color: black;
-		font-family: Arial, Helvetica, sans-serif;
-		text-decoration: none;
-		text-align: left;
-		background-color: rgb(235, 233, 233);
-	}
-	.menu li:hover .submenu {
-		visibility: visible;
-		opacity: 1;
-		display: block;
-		position: relative;
 	}
 }
 @media screen and (max-width: 500px) {
