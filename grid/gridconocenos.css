@@ -2,6 +2,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, auto);
+	padding: 0;
 }
 .historia {
 	display: flex;
