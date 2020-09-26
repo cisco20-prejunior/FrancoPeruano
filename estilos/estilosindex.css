@@ -1,6 +1,6 @@
 /* hearder */
 :root {
-	--titulo-color: #642a73;
+	--tittle-color: #642a73;
 }
 .contenedor {
 	padding: 60px 0;
@@ -10,7 +10,7 @@
 	overflow: hidden;
 }
 .titulo {
-	color: var(--titulo-color);
+	color: var(--tittle-color);
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 60px;
@@ -38,7 +38,7 @@ main .sobre-nosotros {
 }
 
 .contenido-textos h3 span {
-	background: var(--titulo-color);
+	background: var(--tittle-color);
 	color: white;
 	border-radius: 50%;
 	display: inline-block;
@@ -66,7 +66,7 @@ main .sobre-nosotros {
 	padding-bottom: 50px;
 }
 .titulo__carrusel {
-	color: var(--titulo-color);
+	color: var(--tittle-color);
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 60px;

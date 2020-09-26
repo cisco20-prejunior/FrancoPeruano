@@ -10,3 +10,8 @@
 	flex-flow: column wrap;
 	padding-bottom: 2em;
 }
+@media screen and (max-width: 900px) {
+	header {
+		height: 80vh;
+	}
+}
