@@ -13,7 +13,7 @@ body {
 
 .contenedor {
 	width: 100%;
-	margin: auto;
+	margin-inline: auto;
 	overflow: hidden;
 }
 
