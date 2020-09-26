@@ -34,13 +34,13 @@
 	}
 	.mision,
 	.vision {
-		margin-inline: auto;
+		margin: auto;
 		width: 70%;
 	}
 	figure {
 		width: 70%;
 		height: 80%;
-		margin-inline: auto;
+		margin: auto;
 	}
 }
 @media screen and (max-width: 540px) {
@@ -56,7 +56,7 @@
 	figure {
 		width: 70%;
 		height: 80%;
-		margin-inline: auto;
+		margin: auto;
 	}
 	@media screen and (max-width: 400px) {
 		.img_historia {
