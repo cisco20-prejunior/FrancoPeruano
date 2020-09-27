@@ -13,7 +13,7 @@ body {
 
 .contenedor {
 	width: 100%;
-	margin-inline: auto;
+	margin: auto;
 	overflow: hidden;
 }
 
@@ -40,26 +40,26 @@ body {
 figure {
 	width: 50%;
 	height: 50%;
-	margin-inline: auto;
+	margin: auto;
 }
 .img_director {
 	width: 100%;
 	height: 100%;
-	margin-inline: auto;
+	margin: auto;
 	margin-top: 30px;
 	padding-bottom: 1em;
 }
 .img_historia {
 	width: 60%;
 	height: 40%;
-	margin-inline: auto;
+	margin: auto;
 	margin-bottom: 30px;
 }
 
 .parrafo {
 	text-align: justify;
 	width: 75%;
-	margin-inline: auto;
+	margin: auto;
 	margin-block: 20px;
 }
 
