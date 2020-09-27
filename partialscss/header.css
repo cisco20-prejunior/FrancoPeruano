@@ -118,12 +118,7 @@ body {
 	opacity: 1;
 }
 @media screen and (max-width: 900px) {
-	w
 	/* menu */
-	.submenu,
-	.menu {
-		font-size: 15px;
-	}
 	.submenu {
 		background-color: rgb(235, 233, 233);
 	}
@@ -159,10 +154,14 @@ body {
 		padding-bottom: 1em;
 	}
 	.menu .item a {
-		font-size: 1.3em;
+		font-size: 1em;
 		color: black;
 		text-align: left;
-		border-bottom: black 4px;
+	}
+	.submenu .sub-item a {
+		font-size: 1.15em;
+		color: black;
+		text-align: left;
 	}
 	#check:checked ~ .navegacion {
 		visibility: visible;
