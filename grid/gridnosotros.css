@@ -3,6 +3,7 @@
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(3, auto);
 	padding: 0;
+	margin: auto;
 }
 .historia {
 	display: flex;
