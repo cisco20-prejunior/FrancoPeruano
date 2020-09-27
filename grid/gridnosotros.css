@@ -21,12 +21,10 @@
 	header {
 		height: 80vh;
 	}
-	.parrafos {
+	.parrafo {
 		display: inline-block;
-		text-align: justify;
 		width: 70%;
-		padding-top: 1.5em;
-		padding-bottom: 1.5em;
+		margin: auto;
 	}
 	.contenido {
 		flex-flow: column wrap;
