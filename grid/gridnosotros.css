@@ -24,8 +24,7 @@
 	}
 	.parrafo {
 		display: inline-block;
-		width: 70%;
-		margin: auto;
+		width: 80%;
 	}
 	.contenido {
 		flex-flow: column wrap;
