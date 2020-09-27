@@ -25,6 +25,8 @@
 	.parrafo {
 		display: inline-block;
 		width: 80%;
+		margin: auto;
+		margin-bottom: 15px;
 	}
 	.contenido {
 		flex-flow: column wrap;
@@ -48,7 +50,7 @@
 	}
 	.img_historia {
 		width: 90%;
-		height: 300px;
+		height: 90%;
 		padding: 0;
 	}
 	figure {
@@ -56,12 +58,15 @@
 		height: 80%;
 		margin: auto;
 	}
-	@media screen and (max-width: 400px) {
-		.img_historia {
-			height: 200px;
-		}
-		.parrafos {
-			width: 80%;
-		}
+	.parrafo {
+		display: inline-block;
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.mision,
+	.vision {
+		margin: auto;
+		width: 90%;
 	}
 }
