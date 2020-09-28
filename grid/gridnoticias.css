@@ -17,6 +17,8 @@
 	.textos-header {
 		font-size: 2em;
 	}
+}
+@media screen and (max-width: 500px) {
 	.not_fran {
 		grid-template-columns: 1fr;
 	}
