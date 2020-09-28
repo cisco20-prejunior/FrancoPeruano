@@ -35,8 +35,11 @@ main {
 	margin: auto;
 	width: 90%;
 	margin-bottom: 2%;
-	margin-left: 30px;
 }
 .lista .curso li {
 	margin-top: 10px;
+}
+.lateral nav ul {
+	padding-left: 40px;
+	padding-right: 5px;
 }

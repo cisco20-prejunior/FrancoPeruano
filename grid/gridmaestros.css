@@ -17,7 +17,6 @@ main {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 35%;
-	padding-left: 15px;
 }
 #inicial {
 	grid-area: inicial;
@@ -32,9 +31,23 @@ main {
 	.lista li {
 		margin-bottom: 3%;
 	}
+	main {
+		font-size: 1em;
+	}
+	.lateral nav ul {
+		padding-left: 30px;
+		padding-right: 10px;
+	}
 }
 @media screen and (max-width: 540px) {
 	.lista li {
 		margin-bottom: 10%;
+	}
+	main {
+		font-size: 0.8em;
+	}
+	.lateral nav ul {
+		padding-left: 20px;
+		padding-right: 5px;
 	}
 }
