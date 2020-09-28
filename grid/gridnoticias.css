@@ -14,9 +14,10 @@
 	header {
 		height: 80vh;
 	}
-}
-@media screen and (max-width: 900px) {
 	.textos-header {
 		font-size: 2em;
+	}
+	.not_fran {
+		grid-template-columns: 1fr;
 	}
 }

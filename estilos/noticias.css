@@ -7,21 +7,6 @@ body {
 	font-size: 17px;
 }
 
-.contenedor {
-	padding: 60px 0;
-	width: 90%;
-	max-width: 1000px;
-	margin: auto;
-	overflow: hidden;
-}
-
-.titulo {
-	color: #642a73;
-	font-size: 30px;
-	text-align: center;
-	margin-bottom: 60px;
-}
-
 /* Noticias */
 .not_ind > img {
 	width: 60%;
