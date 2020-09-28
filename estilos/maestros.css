@@ -1,3 +1,42 @@
-.contenedor {
-	text-align: justify;
+html {
+	scroll-behavior: smooth;
+}
+:root {
+	--title-color: #642a73;
+}
+
+main {
+	font-size: 1.5em;
+}
+.lateral {
+	border-right: grey 2px solid;
+}
+#lateral {
+	height: 15%;
+}
+#lateral nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+#lateral nav ul li:hover a {
+	color: brown;
+	transition: all 0.3s;
+}
+.titulo {
+	color: var(--title-color);
+	text-align: center;
+}
+.lista {
+	padding: 0;
+}
+.lista li {
+	text-decoration: none;
+	list-style: square;
+	margin: auto;
+	width: 90%;
+	margin-bottom: 2%;
+	margin-left: 30px;
+}
+.lista .curso li {
+	margin-top: 10px;
 }

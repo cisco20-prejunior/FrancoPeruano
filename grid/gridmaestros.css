@@ -1,0 +1,39 @@
+main {
+	position: relative;
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas:
+		"lateral inicial inicial inicial"
+		"lateral primaria primaria primaria"
+		"lateral secundaria secundaria secundaria";
+	grid-gap: 30px;
+	height: auto;
+}
+.lateral {
+	grid-area: lateral;
+}
+#lateral {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 35%;
+}
+#inicial {
+	grid-area: inicial;
+}
+#primaria {
+	grid-area: primaria;
+}
+#secundaria {
+	grid-area: secundaria;
+}
+@media screen and (max-width: 900px) {
+	.lista li {
+		margin-bottom: 3%;
+	}
+}
+@media screen and (max-width: 540px) {
+	.lista li {
+		margin-bottom: 10%;
+	}
+}
