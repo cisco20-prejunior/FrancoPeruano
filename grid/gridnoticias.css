@@ -22,4 +22,8 @@
 	.not_fran {
 		grid-template-columns: 1fr;
 	}
+	.not_ind > img {
+		width: 75%;
+		height: 85%;
+	}
 }
