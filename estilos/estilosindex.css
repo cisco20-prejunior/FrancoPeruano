@@ -14,48 +14,23 @@
 	font-size: 30px;
 	text-align: center;
 	margin-bottom: 60px;
+	padding-top: 30px;
 }
-/* about-us */
-
-main .sobre-nosotros {
-	padding: 30px 0 60px 0;
+/* mapa */
+.map {
+	background: #f2f2f2;
 }
-.contenedor-sobre-nosotros {
-	display: flex;
-	justify-content: space-evenly;
+.mapa {
+	margin: auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	padding-bottom: 20px;
 }
-
-.imagen-about-us {
-	width: 48%;
+iframe {
+	width: 50vw;
+	height: 70vh;
 }
-
-.sobre-nosotros .contenido-textos {
-	width: 48%;
-}
-
-.contenido-textos h3 {
-	margin-bottom: 15px;
-}
-
-.contenido-textos h3 span {
-	background: var(--tittle-color);
-	color: white;
-	border-radius: 50%;
-	display: inline-block;
-	text-align: center;
-	width: 30px;
-	height: 30px;
-	padding: 4px;
-	box-shadow: 0 0 6px 0 rgb(0, 0, 5);
-	margin-right: 5px;
-}
-
-.contenido-textos p {
-	padding: 0 0 30px 15px;
-	font-weight: 300;
-	text-align: justify;
-}
-
 /* galeria */
 .fas:hover {
 	cursor: pointer;
@@ -117,7 +92,6 @@ main .sobre-nosotros {
 /* Our team */
 
 .about-services {
-	background: #f2f2f2;
 	padding-bottom: 30px;
 }
 
