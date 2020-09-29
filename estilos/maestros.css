@@ -1,45 +1,33 @@
-html {
-	scroll-behavior: smooth;
-}
 :root {
 	--title-color: #642a73;
 }
-
-main {
-	font-size: 1.5em;
-}
-.lateral {
-	border-right: grey 2px solid;
-}
-#lateral {
-	height: 15%;
-}
-#lateral nav ul li a {
-	text-decoration: none;
-	color: black;
-}
-#lateral nav ul li:hover a {
-	color: brown;
-	transition: all 0.3s;
+.contenedor img {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	padding-bottom: 30px;
 }
 .titulo {
 	color: var(--title-color);
 	text-align: center;
+	font-size: 3em;
 }
-.lista {
-	padding: 0;
+.grado-int {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 30px;
+}
+#primaria {
+	background-color: #bcbcbc58;
 }
 .lista li {
-	text-decoration: none;
-	list-style: square;
-	margin: auto;
-	width: 90%;
-	margin-bottom: 2%;
+	font-size: 2em;
 }
-.lista .curso li {
-	margin-top: 10px;
+.lista li ul li {
+	font-size: 1.1em;
 }
-.lateral nav ul {
-	padding-left: 40px;
-	padding-right: 5px;
+.grado {
+	height: -webkit-max-content;
+	height: -moz-max-content;
+	height: max-content;
 }
