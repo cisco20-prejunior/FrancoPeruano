@@ -2,52 +2,42 @@ main {
 	position: relative;
 	display: grid;
 	grid-template-rows: auto;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-areas:
-		"lateral inicial inicial inicial"
-		"lateral primaria primaria primaria"
-		"lateral secundaria secundaria secundaria";
+	grid-template-columns: 1fr;
 	grid-gap: 30px;
 	height: auto;
 }
-.lateral {
-	grid-area: lateral;
-}
-#lateral {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 35%;
-}
-#inicial {
-	grid-area: inicial;
-}
-#primaria {
-	grid-area: primaria;
-}
-#secundaria {
-	grid-area: secundaria;
-}
+
 @media screen and (max-width: 900px) {
 	.lista li {
-		margin-bottom: 3%;
+		font-size: 1.1em;
 	}
-	main {
-		font-size: 1em;
+	.lista li ul li {
+		font-size: 0.8em;
 	}
-	.lateral nav ul {
-		padding-left: 30px;
-		padding-right: 10px;
+}
+@media screen and (max-width: 700px) {
+	.textos-header {
+		font-size: 2em;
 	}
 }
 @media screen and (max-width: 540px) {
 	.lista li {
-		margin-bottom: 10%;
+		font-size: 1em;
 	}
-	main {
-		font-size: 0.8em;
+	.lista li ul li {
+		font-size: 0.6em;
 	}
-	.lateral nav ul {
-		padding-left: 20px;
-		padding-right: 5px;
+	.grado-int {
+		display: grid;
+		grid-template-columns: 1fr;
+		padding-bottom: 30px;
+	}
+	.contenedor img {
+		width: 80%;
+		height: 40vh;
+		margin: auto;
+	}
+	.textos-header {
+		font-size: 2em;
 	}
 }
