@@ -3,11 +3,11 @@
 	--tittle-color: #642a73;
 }
 .contenedor {
+	position: relative;
 	padding: 60px 0;
 	width: 90%;
 	max-width: 1000px;
 	margin: auto;
-	overflow: hidden;
 }
 .titulo {
 	color: var(--tittle-color);
@@ -36,6 +36,7 @@ iframe {
 	cursor: pointer;
 }
 .portafolio {
+	position: relative;
 	background: #f2f2f2;
 	padding-top: 30px;
 	padding-bottom: 50px;

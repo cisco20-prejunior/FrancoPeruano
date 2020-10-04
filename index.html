@@ -6,7 +6,10 @@
 		<title>Franco Peruano</title>
 		<link rel="stylesheet" href="estilos/normalize.css" />
 		<link rel="icon" href="imagenes/favicon.ico" type="image/png" />
-		<link rel="stylesheet" href="estilos/carrusel.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
+		/>
 		<link rel="stylesheet" href="partialscss/footer.css" />
 		<link rel="stylesheet" href="partialscss/header.css" />
 		<link
@@ -16,6 +19,7 @@
 			media="all"
 		/>
 		<link rel="stylesheet" href="grid/gridindex.css" />
+		<link rel="stylesheet" href="estilos/carrusel.css" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
@@ -65,18 +69,46 @@
 		<main>
 			<section class="portafolio">
 				<h2 class="titulo__carrusel">Nuestros Ambientes</h2>
-				<div id="carrusel" class="carrusel">
-					<a onclick="anterior()" class="btn btn1"
-						><i class="fas fa-chevron-left"></i
-					></a>
-					<div class="carruselint">
-						<img src="imagenes\imag2.jpg" alt="" id="img2" />
-						<img src="imagenes\imag1.jpg" alt="" id="img1" />
-						<img src="imagenes\imag3.jpg" alt="" id="img3" />
+				<div class="carousel contenedor">
+					<div class="carousel__contenedor">
+						<button aria-label="Anterior" class="carousel__anterior">
+							<i class="fas fa-chevron-left"></i>
+						</button>
+
+						<div class="carousel__lista">
+							<div class="carousel__elemento">
+								<img
+									src="imagenes/imag1.jpg"
+									alt="Rock and Roll Hall of Fame"
+								/>
+							</div>
+							<div class="carousel__elemento">
+								<img
+									src="imagenes/imag2.jpg"
+									alt="Constitution Square - Tower I"
+								/>
+							</div>
+							<div class="carousel__elemento">
+								<img src="imagenes/imag3.jpg" alt="Empire State Building" />
+							</div>
+							<div class="carousel__elemento">
+								<img src="imagenes/imag4.jpg" alt="Harmony Tower" />
+							</div>
+
+							<div class="carousel__elemento">
+								<img src="imagenes/imag5.jpg" alt="Empire State Building" />
+							</div>
+							<div class="carousel__elemento">
+								<img src="imagenes/imag6.jpg" alt="Harmony Tower" />
+							</div>
+						</div>
+
+						<button aria-label="Siguiente" class="carousel__siguiente">
+							<i class="fas fa-chevron-right"></i>
+						</button>
 					</div>
-					<a onclick="siguiente()" class="btn btn2"
-						><i class="fas fa-chevron-right"></i
-					></a>
+
+					<div role="tablist" class="carousel__indicadores"></div>
 				</div>
 			</section>
 			<section class="contenedor">
@@ -186,6 +218,7 @@
 				></a>
 			</div>
 		</footer>
+		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
 		<script src="javascript/index.js"></script>
 	</body>
 </html>
