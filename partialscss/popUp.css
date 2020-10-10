@@ -1,0 +1,187 @@
+.overlay {
+	background: rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	visibility: hidden;
+}
+
+.overlay.active {
+	visibility: visible;
+	z-index: 100000;
+}
+.popup img {
+	height: 30%;
+	width: 30%;
+}
+.popUpParraf .fa-facebook {
+	color: rgb(0, 60, 255);
+	opacity: 0.8;
+}
+.popUpParraf .fa-facebook:hover {
+	transition: all 0.5s ease;
+	opacity: 1;
+}
+.popup {
+	background: #f8f8f8;
+	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+	font-family: "Montserrat", sans-serif;
+	padding: 20px;
+	text-align: center;
+	width: 50%;
+	height: auto;
+	z-index: 10;
+	transition: 0.3s ease all;
+	transform: scale(0.7);
+	opacity: 0;
+}
+
+.popup .btn-cerrar-popup {
+	font-size: 1.2em;
+	line-height: 1.2em;
+	display: block;
+	text-align: right;
+	transition: 0.3s ease all;
+	color: #bbbbbb;
+}
+
+.popup .btn-cerrar-popup:hover {
+	color: #000;
+}
+
+.popup h3 {
+	font-size: 2.2em;
+	font-weight: 600;
+	margin-bottom: 10px;
+	opacity: 0;
+}
+
+.popup h4 {
+	font-size: 1.8em;
+	font-weight: 300;
+	margin-bottom: 40px;
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs {
+	opacity: 0;
+}
+
+.popup form .contenedor-inputs input {
+	width: 100%;
+	margin-bottom: 20px;
+	height: 52px;
+	font-size: 18px;
+	line-height: 52px;
+	text-align: center;
+	border: 1px solid #bbbbbb;
+}
+
+.popup form .btn-submit:hover {
+	background: rgba(94, 125, 227, 0.9);
+}
+
+/* ------------------------- */
+/* ANIMACIONES */
+/* ------------------------- */
+.popup.active {
+	transform: scale(1);
+	opacity: 1;
+}
+.popup.active h3 {
+	-webkit-animation: entradaTitulo 0.8s ease 0.5s forwards;
+	animation: entradaTitulo 0.8s ease 0.5s forwards;
+}
+.popup.active h4 {
+	-webkit-animation: entradaSubtitulo 0.8s ease 0.5s forwards;
+	animation: entradaSubtitulo 0.8s ease 0.5s forwards;
+}
+.popup.active .contenedor-inputs {
+	-webkit-animation: entradaInputs 1s linear 1s forwards;
+	animation: entradaInputs 1s linear 1s forwards;
+}
+
+@-webkit-keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes entradaInputs {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes entradaInputs {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@media screen and (max-width: 900px) {
+	.popup {
+		width: 70%;
+	}
+	.popUpParraf .fa-facebook {
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 500px) {
+	.popup {
+		width: 80%;
+	}
+}
