@@ -1,0 +1,20 @@
+img {
+	border-radius: 10%;
+}
+
+body {
+	font-family: Arial;
+	font-size: 17px;
+}
+
+/* Noticias */
+.not_ind > img {
+	width: 60%;
+	height: 70%;
+	margin: auto;
+	margin-bottom: 1em;
+	margin-top: 2em;
+}
+.not_black {
+	background-color: #dde0e2;
+}

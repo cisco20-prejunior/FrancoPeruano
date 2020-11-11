@@ -1,0 +1,37 @@
+body {
+	font-family: Arial;
+	font-size: 18px;
+}
+
+.contenedor {
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* hearder */
+
+/* Contenio Main */
+
+.mainCont {
+	width: 70%;
+	margin: 2em auto 2em auto;
+	border: grey solid 1px;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	box-shadow: rgb(155, 155, 155) 10px 10px 10px 10px;
+}
+#genTitle {
+	text-align: center;
+}
+/* responsive */
+@media screen and (max-width: 400px) {
+	.textos-header h1 {
+		font-size: 3.7em;
+	}
+	body {
+		font-size: 14px;
+	}
+}

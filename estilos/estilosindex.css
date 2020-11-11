@@ -1,0 +1,126 @@
+/* hearder */
+:root {
+	--tittle-color: #642a73;
+}
+.contenedor {
+	position: relative;
+	padding: 60px 0;
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+}
+.titulo {
+	color: var(--tittle-color);
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+	padding-top: 30px;
+}
+/* mapa */
+.map {
+	background: #f2f2f2;
+}
+.mapa {
+	margin: auto;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	padding-bottom: 20px;
+}
+iframe {
+	width: 50vw;
+	height: 70vh;
+}
+/* galeria */
+.fas:hover {
+	cursor: pointer;
+}
+.portafolio {
+	position: relative;
+	background: #f2f2f2;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.titulo__carrusel {
+	color: var(--tittle-color);
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.btn {
+	color: rgb(54, 52, 52);
+	font-size: 4em;
+	padding: 5px;
+}
+/* clients */
+.cards {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.cards .card {
+	background: #1873de;
+	display: flex;
+	width: 46%;
+	height: 200px;
+	align-items: center;
+	justify-content: space-evenly;
+	border-radius: 5px;
+	box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.6);
+}
+
+.cards .card img {
+	width: 100px;
+	height: 100px;
+	-o-object-fit: cover;
+	object-fit: cover;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	display: block;
+}
+
+.cards .card > .contenido-texto-card {
+	width: 60%;
+	color: #fff;
+}
+
+.cards .card > .contenido-texto-card p {
+	font-weight: 300;
+	padding-top: 5px;
+}
+
+/* Our team */
+
+.about-services {
+	padding-bottom: 30px;
+}
+
+.servicio-cont {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+.servicio-cont img {
+	min-height: 200px;
+	max-height: 400px;
+	width: 100px;
+}
+
+.servicio-ind {
+	width: 28%;
+	text-align: center;
+}
+
+.servicio-ind img {
+	width: 90%;
+}
+
+.servicio-ind h3 {
+	margin: 10px 0;
+}
+
+.servicio-ind p {
+	font-weight: 300;
+	text-align: justify;
+}

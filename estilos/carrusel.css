@@ -1,0 +1,41 @@
+.carousel__contenedor {
+	position: relative;
+}
+.carousel__anterior,
+.carousel__siguiente {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	cursor: pointer;
+	background-color: transparent;
+	border-style: none;
+	font-size: 1.5em;
+	opacity: 0.6;
+	transition: all ease 200ms;
+}
+.carousel__anterior:hover,
+.carousel__siguiente:hover {
+	opacity: 1;
+}
+.carousel__anterior {
+	left: -30px;
+}
+.carousel__siguiente {
+	right: -30px;
+}
+.carousel__indicadores .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background-color: rgb(51, 51, 51);
+	opacity: 0.3;
+	border-radius: 0;
+}
+.carousel__indicadores .glider-dot:hover {
+	opacity: 0.5;
+}
+.carousel__indicadores .glider-dot.active {
+	opacity: 1;
+}

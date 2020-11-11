@@ -1,0 +1,33 @@
+:root {
+	--title-color: #642a73;
+}
+.contenedor img {
+	width: 80%;
+	height: 100%;
+	margin: auto;
+	padding-bottom: 30px;
+}
+.titulo {
+	color: var(--title-color);
+	text-align: center;
+	font-size: 3em;
+}
+.grado-int {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding-bottom: 30px;
+}
+#primaria {
+	background-color: #bcbcbc58;
+}
+.lista li {
+	font-size: 2em;
+}
+.lista li ul li {
+	font-size: 1.1em;
+}
+.grado {
+	height: -webkit-max-content;
+	height: -moz-max-content;
+	height: max-content;
+}

@@ -1,0 +1,29 @@
+.not_fran {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-row: auto;
+	align-content: space-evenly;
+}
+
+.not_ind {
+	display: flex;
+	flex-flow: column wrap;
+	padding-bottom: 2em;
+}
+@media screen and (max-width: 900px) {
+	header {
+		height: 80vh;
+	}
+	.textos-header {
+		font-size: 2em;
+	}
+}
+@media screen and (max-width: 500px) {
+	.not_fran {
+		grid-template-columns: 1fr;
+	}
+	.not_ind > img {
+		width: 75%;
+		height: 85%;
+	}
+}

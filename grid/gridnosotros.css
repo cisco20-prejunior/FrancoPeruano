@@ -1,0 +1,75 @@
+.contenedor {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, auto);
+	padding: 0;
+	margin: auto;
+}
+.historia {
+	display: flex;
+}
+.director {
+	display: flex;
+}
+.mision_vision {
+	display: flex;
+}
+@media screen and (max-width: 900px) {
+	.textos-header h1 {
+		font-size: 1.5em;
+		color: white;
+	}
+	header {
+		height: 80vh;
+	}
+	.parrafo {
+		display: inline-block;
+		width: 80%;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	.contenido {
+		flex-flow: column wrap;
+		justify-content: space-evenly;
+	}
+	.mision,
+	.vision {
+		margin: auto;
+		width: 70%;
+	}
+	figure {
+		width: 70%;
+		height: 80%;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 540px) {
+	.textos-header h1 {
+		font-size: 0.7em;
+		color: white;
+	}
+	.img_historia {
+		width: 90%;
+		height: 90%;
+		padding: 0;
+	}
+	figure {
+		width: 80%;
+		height: 80%;
+		margin: auto;
+	}
+	figcaption {
+		font-size: 0.83em;
+	}
+	.parrafo {
+		display: inline-block;
+		width: 90%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.mision,
+	.vision {
+		margin: auto;
+		width: 90%;
+	}
+}
