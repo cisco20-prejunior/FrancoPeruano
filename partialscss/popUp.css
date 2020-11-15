@@ -16,12 +16,12 @@
 	z-index: 100000;
 }
 .popup img {
-	height: 30%;
-	width: 30%;
+	height: 35%;
+	width: 35%;
 }
 .popUpParraf .fa-facebook {
 	color: rgb(0, 60, 255);
-	opacity: 0.8;
+	opacity: 0.7;
 }
 .popUpParraf .fa-facebook:hover {
 	transition: all 0.5s ease;
@@ -63,7 +63,7 @@
 }
 
 .popup h4 {
-	font-size: 1.8em;
+	font-size: 1.5em;
 	font-weight: 300;
 	margin-bottom: 40px;
 	opacity: 0;
@@ -179,9 +179,27 @@
 	.popUpParraf .fa-facebook {
 		font-size: 2em;
 	}
+	.popup h3 {
+		font-size: 2em;
+		font-weight: 600;
+	}
+	
+	.popup h4 {
+		font-size: 1em;
+		font-weight: 300;
+	}
 }
 @media screen and (max-width: 500px) {
 	.popup {
 		width: 80%;
+	}
+	.popup h3 {
+		font-size: 1.8em;
+		font-weight: 600;
+	}
+	
+	.popup h4 {
+		font-size: 0.9em;
+		font-weight: 300;
 	}
 }
