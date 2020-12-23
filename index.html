@@ -1,245 +1,275 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Franco Peruano</title>
-		<link rel="stylesheet" href="estilos/normalize.css" />
-		<link rel="icon" href="imagenes/favicon.ico" type="image/png" />
-		<link
-			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
-		/>
-		<link rel="stylesheet" href="partialscss/footer.css" />
-		<link rel="stylesheet" href="partialscss/header.css" />
-		<link
-			rel="stylesheet"
-			href="estilos/estilosindex.css"
-			type="text/css"
-			media="all"
-		/>
-		<link rel="stylesheet" href="grid/gridindex.css" />
-		<link rel="stylesheet" href="partialscss/popUp.css">
-		<link rel="stylesheet" href="estilos/carrusel.css" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-		/>
-		<script
-			src="https://kit.fontawesome.com/65b1cfe81d.js"
-			crossorigin="anonymous"
-		></script>
-	</head>
-	<body>
-		<header>
-			<div class="navegacion_contenedor">
-				<input type="checkbox" id="check" />
-				<label for="check" class="fas fa-align-justify" id="label"></label>
-				<nav class="navegacion">
-					<ul class="menu">
-						<li class="item"><a href="#">Inicio</a></li>
-						<li class="item"><a href="Noticias.html">Noticias</a></li>
-						<li class="item"><a href="informacion.html">Información</a></li>
-						<li class="item">
-							<a class="desplegar">Conócenos</a>
-							<ul class="submenu">
-								<li><a href="nosotros.html">Nosotros</a></li>
-								<li><a href="maestros.html">Maestros</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="textos-header">
-				<h1>Franco Peruano</h1>
-				<h2>"Nacimos para ser grande"</h2>
-			</div>
-			<div class="wave" style="height: 30%; overflow: hidden">
-				<svg
-					viewBox="0 0 500 150"
-					preserveAspectRatio="none"
-					style="height: 100%; width: 100%"
-				>
-					<path
-						d="M0.00,49.98 C180.86,154.44 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-						style="stroke: none; fill: #fff"
-					></path>
-				</svg>
-			</div>
-		</header>
-		<div class="overlay" id="overlay">
-			<div class="popup" id="popup">
-				<a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
-				<h3>Agradecemos su visita y su opinión</h3>
-				<h4>Esta página fue creada por estudiantes para que nuestro colegio Franco Peruano pueda llegar a más personas y brindar una mejor atención.</h4>
-				<p class="popUpParraf">Visita nuestras redes sociales: <br> <a
-					href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
-					target="_blank"
-					rel="noopener noreferrer"
-					><i class="fab fa-facebook"></i
-				></a></p>
-				<img src="imagenes/insignia.png" alt="Pastel de cumpleaños">
-			</div>
-		</div>
-		<main>
-			<section class="portafolio">
-				<h2 class="titulo__carrusel">Nuestros Ambientes</h2>
-				<div class="carousel contenedor">
-					<div class="carousel__contenedor">
-						<button aria-label="Anterior" class="carousel__anterior">
-							<i class="fas fa-chevron-left"></i>
-						</button>
+  <head>
+    <!-- Smartsupp Live Chat script -->
+    <script type="text/javascript">
+      var _smartsupp = _smartsupp || {};
+      _smartsupp.key = "71d1f47f67cb4bf928aa5303a63cccce8f1f4853";
+      window.smartsupp ||
+        (function (d) {
+          var s,
+            c,
+            o = (smartsupp = function () {
+              o._.push(arguments);
+            });
+          o._ = [];
+          s = d.getElementsByTagName("script")[0];
+          c = d.createElement("script");
+          c.type = "text/javascript";
+          c.charset = "utf-8";
+          c.async = true;
+          c.src = "https://www.smartsuppchat.com/loader.js?";
+          s.parentNode.insertBefore(c, s);
+        })(document);
+    </script>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Franco Peruano</title>
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="icon" href="imagenes/favicon.ico" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css"
+    />
+    <link rel="stylesheet" href="partialscss/footer.css" />
+    <link rel="stylesheet" href="partialscss/header.css" />
+    <link
+      rel="stylesheet"
+      href="estilos/estilosindex.css"
+      type="text/css"
+      media="all"
+    />
+    <link rel="stylesheet" href="grid/gridindex.css" />
+    <link rel="stylesheet" href="partialscss/popUp.css" />
+    <link rel="stylesheet" href="estilos/carrusel.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/65b1cfe81d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="navegacion_contenedor">
+        <input type="checkbox" id="check" />
+        <label for="check" class="fas fa-align-justify" id="label"></label>
+        <nav class="navegacion">
+          <ul class="menu">
+            <li class="item"><a href="#">Inicio</a></li>
+            <li class="item"><a href="Noticias.html">Noticias</a></li>
+            <li class="item"><a href="informacion.html">Información</a></li>
+            <li class="item">
+              <a class="desplegar">Conócenos</a>
+              <ul class="submenu">
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="maestros.html">Maestros</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="textos-header">
+        <h1>Franco Peruano</h1>
+        <h2>"Nacimos para ser grande"</h2>
+      </div>
+      <div class="wave" style="height: 30%; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.98 C180.86,154.44 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <div class="overlay" id="overlay">
+      <div class="popup" id="popup">
+        <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"
+          ><i class="fas fa-times"></i
+        ></a>
+        <h3>Agradecemos su visita y su opinión</h3>
+        <h4>
+          Esta página fue creada por estudiantes para que nuestro colegio Franco
+          Peruano pueda llegar a más personas y brindar una mejor atención.
+        </h4>
+        <p class="popUpParraf">
+          Visita nuestras redes sociales: <br />
+          <a
+            href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </p>
+        <img src="imagenes/insignia.png" alt="Pastel de cumpleaños" />
+      </div>
+    </div>
+    <main>
+      <section class="portafolio">
+        <h2 class="titulo__carrusel">Nuestros Ambientes</h2>
+        <div class="carousel contenedor">
+          <div class="carousel__contenedor">
+            <button aria-label="Anterior" class="carousel__anterior">
+              <i class="fas fa-chevron-left"></i>
+            </button>
 
-						<div class="carousel__lista">
-							<div class="carousel__elemento">
-								<img
-									src="imagenes/imag1.jpg"
-									alt="Rock and Roll Hall of Fame"
-								/>
-							</div>
-							<div class="carousel__elemento">
-								<img
-									src="imagenes/imag2.jpg"
-									alt="Constitution Square - Tower I"
-								/>
-							</div>
-							<div class="carousel__elemento">
-								<img src="imagenes/imag3.jpg" alt="Empire State Building" />
-							</div>
-							<div class="carousel__elemento">
-								<img src="imagenes/imag4.jpg" alt="Harmony Tower" />
-							</div>
+            <div class="carousel__lista">
+              <div class="carousel__elemento">
+                <img
+                  src="imagenes/imag1.jpg"
+                  alt="Rock and Roll Hall of Fame"
+                />
+              </div>
+              <div class="carousel__elemento">
+                <img
+                  src="imagenes/imag2.jpg"
+                  alt="Constitution Square - Tower I"
+                />
+              </div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag3.jpg" alt="Empire State Building" />
+              </div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag4.jpg" alt="Harmony Tower" />
+              </div>
 
-							<div class="carousel__elemento">
-								<img src="imagenes/imag5.jpg" alt="Empire State Building" />
-							</div>
-							<div class="carousel__elemento">
-								<img src="imagenes/imag6.jpg" alt="Harmony Tower" />
-							</div>
-							<div class="carousel__elemento">
-								<img src="imagenes/imag7.jpg" alt="Harmony Tower" />
-							</div>
-							<div class="carousel__elemento">
-								<img src="imagenes/imag8.jpg" alt="Harmony Tower" />
-							</div>
-						</div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag5.jpg" alt="Empire State Building" />
+              </div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag6.jpg" alt="Harmony Tower" />
+              </div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag7.jpg" alt="Harmony Tower" />
+              </div>
+              <div class="carousel__elemento">
+                <img src="imagenes/imag8.jpg" alt="Harmony Tower" />
+              </div>
+            </div>
 
-						<button aria-label="Siguiente" class="carousel__siguiente">
-							<i class="fas fa-chevron-right"></i>
-						</button>
-					</div>
+            <button aria-label="Siguiente" class="carousel__siguiente">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
 
-					<div role="tablist" class="carousel__indicadores"></div>
-				</div>
-			</section>
-			<section class="contenedor">
-				<h2 class="titulo">Que dicen los padres</h2>
-				<div class="cards">
-					<div class="card">
-						<img src="imagenes/face1.jpg" alt="" />
-						<div class="contenido-texto-card">
-							<h4>Name</h4>
-							<p>
-								Es todo lo que podría pedir para poder educar a mi hijo. Los
-								profesores están muy bien capacitados y las enseñanzas brindadas
-								puedes verce a penas mi hijo llega a casa.
-							</p>
-						</div>
-					</div>
-					<div class="card">
-						<img src="imagenes/face2.jpg" alt="" />
-						<div class="contenido-texto-card">
-							<h4>Name</h4>
-							<p>
-								No todo es perfecto, pero puedo decir que es la educación más
-								completa que he visto, enseñan cosas académicas y también
-								refuerzan los valores que nosotros les mostramos.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="map">
-				<h2 class="titulo">Cómo econtrarnos</h2>
-				<div class="mapa">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.9177106892907!2d-74.94230968555269!3d-14.829875803920062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQ5JzQ3LjYiUyA3NMKwNTYnMjQuNCJX!5e0!3m2!1ses!2spe!4v1601337016434!5m2!1ses!2spe"
-						frameborder="0"
-						style="border: 0"
-						allowfullscreen=""
-						aria-hidden="false"
-						tabindex="0"
-					></iframe>
-				</div>
-			</section>
-			<section class="about-services">
-				<div class="contenedor">
-					<h2 class="titulo">Nuestros servicios</h2>
-					<div class="servicio-cont">
-						<div class="servicio-ind">
-							<img src="imagenes/ilustracion1.jpg" alt="" />
-							<h3>Los Mejores Profesores</h3>
-							<p>
-								Tenemos a la mejor plana docente para cada uno de nuestros tres
-								xniveles de enseñanza.
-							</p>
-						</div>
-						<div class="servicio-ind">
-							<img
-								src="imagenes\Diferencias-entre-el-psicólogo-y-el-trabajador-social.jpg"
-								alt=""
-							/>
-							<h3>Psicologia</h3>
-							<p>
-								Contamos con atención psicológica que puede ser pedida por los
-								padres o por el mismo alumno, porque sabemos que una buena salud
-								psicológica es la base de todo conocimiento.
-							</p>
-						</div>
-						<div class="servicio-ind">
-							<img src="imagenes\basquet.jpg" alt="" />
-							<h3>Talleres</h3>
-							<p>
-								Tenemos distintos talleres en las tardes para el nivel
-								secundario y primario, abarcando los deportes principales y
-								preparandolos para representar a la escuela en campeonatos de
-								Fútbol, Básquet y Volley.
-							</p>
-						</div>
-					</div>
-				</div>
-			</section>
-		</main>
-		<footer>
-			<div class="contenedor-footer">
-				<div class="content-foo">
-					<h4>Telefono</h4>
-					<p>
-						(056) 522477
-						<br />
-						995 027 270
-					</p>
-				</div>
-				<div class="content-foo">
-					<h4>Email</h4>
-					<p>ejemplo@fp.ed.pe</p>
-				</div>
-				<div class="content-foo">
-					<h4>Ubicacion</h4>
-					<p>Calle Ignacio Morsesky N° 250</p>
-				</div>
-			</div>
-			<h3 class="titulo-final">&copy; Colegio Franco Peruano | Nasca</h3>
-			<div class="redes">
-				<a
-					href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
-					target="_blank"
-					rel="noopener noreferrer"
-					><i class="fab fa-facebook"></i
-				></a>
-			</div>
-		</footer>
-		<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-		<script src="javascript/index.js"></script>
-	</body>
+          <div role="tablist" class="carousel__indicadores"></div>
+        </div>
+      </section>
+      <section class="contenedor">
+        <h2 class="titulo">Que dicen los padres</h2>
+        <div class="cards">
+          <div class="card">
+            <img src="imagenes/face1.jpg" alt="" />
+            <div class="contenido-texto-card">
+              <h4>Name</h4>
+              <p>
+                Es todo lo que podría pedir para poder educar a mi hijo. Los
+                profesores están muy bien capacitados y las enseñanzas brindadas
+                puedes verce a penas mi hijo llega a casa.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="imagenes/face2.jpg" alt="" />
+            <div class="contenido-texto-card">
+              <h4>Name</h4>
+              <p>
+                No todo es perfecto, pero puedo decir que es la educación más
+                completa que he visto, enseñan cosas académicas y también
+                refuerzan los valores que nosotros les mostramos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map">
+        <h2 class="titulo">Cómo econtrarnos</h2>
+        <div class="mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3856.9177106892907!2d-74.94230968555269!3d-14.829875803920062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTTCsDQ5JzQ3LjYiUyA3NMKwNTYnMjQuNCJX!5e0!3m2!1ses!2spe!4v1601337016434!5m2!1ses!2spe"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+      </section>
+      <section class="about-services">
+        <div class="contenedor">
+          <h2 class="titulo">Nuestros servicios</h2>
+          <div class="servicio-cont">
+            <div class="servicio-ind">
+              <img src="imagenes/ilustracion1.jpg" alt="" />
+              <h3>Los Mejores Profesores</h3>
+              <p>
+                Tenemos a la mejor plana docente para cada uno de nuestros tres
+                xniveles de enseñanza.
+              </p>
+            </div>
+            <div class="servicio-ind">
+              <img
+                src="imagenes\Diferencias-entre-el-psicólogo-y-el-trabajador-social.jpg"
+                alt=""
+              />
+              <h3>Psicologia</h3>
+              <p>
+                Contamos con atención psicológica que puede ser pedida por los
+                padres o por el mismo alumno, porque sabemos que una buena salud
+                psicológica es la base de todo conocimiento.
+              </p>
+            </div>
+            <div class="servicio-ind">
+              <img src="imagenes\basquet.jpg" alt="" />
+              <h3>Talleres</h3>
+              <p>
+                Tenemos distintos talleres en las tardes para el nivel
+                secundario y primario, abarcando los deportes principales y
+                preparandolos para representar a la escuela en campeonatos de
+                Fútbol, Básquet y Volley.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Telefono</h4>
+          <p>
+            (056) 522477
+            <br />
+            995 027 270
+          </p>
+        </div>
+        <div class="content-foo">
+          <h4>Email</h4>
+          <p>ejemplo@fp.ed.pe</p>
+        </div>
+        <div class="content-foo">
+          <h4>Ubicacion</h4>
+          <p>Calle Ignacio Morsesky N° 250</p>
+        </div>
+      </div>
+      <h3 class="titulo-final">&copy; Colegio Franco Peruano | Nasca</h3>
+      <div class="redes">
+        <a
+          href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="javascript/index.js"></script>
+  </body>
 </html>
