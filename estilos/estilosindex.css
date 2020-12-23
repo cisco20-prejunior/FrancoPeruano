@@ -2,6 +2,9 @@
 :root {
   --tittle-color: #642a73;
 }
+h2 {
+  font-weight: bold;
+}
 .contenedor {
   position: relative;
   padding: 60px 0;
@@ -9,6 +12,7 @@
   max-width: 1000px;
   margin: auto;
 }
+
 .titulo {
   color: var(--tittle-color);
   font-size: 30px;
@@ -35,6 +39,10 @@ iframe {
 .fas:hover {
   cursor: pointer;
 }
+.carousel {
+  width: 80%;
+  margin: auto;
+}
 .portafolio {
   position: relative;
   background: #f2f2f2;
@@ -48,18 +56,13 @@ iframe {
   margin-bottom: 60px;
 }
 
-.btn {
-  color: rgb(54, 52, 52);
-  font-size: 4em;
-  padding: 5px;
-}
 /* clients */
-.cards {
+.cartas {
   display: flex;
   justify-content: space-evenly;
 }
 
-.cards .card {
+.cartas .carta {
   background: #1873de;
   display: flex;
   width: 46%;
@@ -70,7 +73,7 @@ iframe {
   box-shadow: 0 0 6px 0 rgb(0, 0, 0, 0.6);
 }
 
-.cards .card img {
+.cartas .carta img {
   width: 100px;
   height: 100px;
   -o-object-fit: cover;
@@ -80,12 +83,12 @@ iframe {
   display: block;
 }
 
-.cards .card > .contenido-texto-card {
+.cartas .carta > .contenido-texto-carta {
   width: 60%;
   color: #fff;
 }
 
-.cards .card > .contenido-texto-card p {
+.cartas .carta > .contenido-texto-carta p {
   font-weight: 300;
   padding-top: 5px;
 }
