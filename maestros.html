@@ -1,171 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Maestros</title>
-		<link rel="stylesheet" href="estilos/normalize.css" />
-		<link rel="icon" href="imagenes/favicon.ico" type="image/png" />
-		<link rel="stylesheet" href="partialscss/footer.css" />
-		<link rel="stylesheet" href="partialscss/header.css" />
-		<script
-			src="https://kit.fontawesome.com/65b1cfe81d.js"
-			crossorigin="anonymous"
-		></script>
-		<link rel="stylesheet" href="estilos/maestros.css" />
-		<link rel="stylesheet" href="grid/gridmaestros.css" />
-	</head>
-	<body>
-		<header>
-			<div class="navegacion_contenedor">
-				<input type="checkbox" id="check" />
-				<label for="check" class="fas fa-align-justify" id="label"></label>
-				<nav class="navegacion">
-					<ul class="menu">
-						<li class="item"><a href="index.html">Inicio</a></li>
-						<li class="item"><a href="Noticias.html">Noticias</a></li>
-						<li class="item"><a href="informacion.html">Información</a></li>
-						<li class="item">
-							<a class="desplegar">Conócenos</a>
-							<ul class="submenu">
-								<li><a href="nosotros.html">Nosotros</a></li>
-								<li><a href="#">Maestros</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="textos-header">
-				<h1>Nuetros Maestros</h1>
-			</div>
-			<div class="wave" style="height: 30%; overflow: hidden">
-				<svg
-					viewBox="0 0 500 150"
-					preserveAspectRatio="none"
-					style="height: 100%; width: 100%"
-				>
-					<path
-						d="M0.00,49.98 C180.86,154.44 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-						style="stroke: none; fill: #fff"
-					></path>
-				</svg>
-			</div>
-		</header>
-		<main class="contenedor">
-			<div id="fb-root"></div>
-			<script>
-			  window.fbAsyncInit = function() {
-				FB.init({
-				  xfbml            : true,
-				  version          : 'v9.0'
-				});
-			  };
-	  
-			  (function(d, s, id) {
-			  var js, fjs = d.getElementsByTagName(s)[0];
-			  if (d.getElementById(id)) return;
-			  js = d.createElement(s); js.id = id;
-			  js.src = 'https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js';
-			  fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));</script>
-	  
-			<section id="inicial" class="grado">
-				<h2 class="titulo">Inicial</h2>
-				<div class="grado-int">
-					<ul class="lista">
-						<li>Dodi</li>
-						<li>Liliana conde</li>
-						<li>Narda Calle cardenas</li>
-						<li>Raquel</li>
-						<li>Silvia</li>
-						<li>Isabel perez</li>
-						<li>Paulina Condes</li>
-						<li>Elizabeth</li>
-					</ul>
-					<img src="imagenes/maestrosSec.jpeg" alt="" />
-				</div>
-			</section>
-			<section id="primaria" class="grado">
-				<h2 class="titulo">Primaria</h2>
-				<div class="grado-int">
-					<ul class="lista">
-						<li>Carmen chiclla</li>
-						<li>Carmen Llamoca</li>
-						<li>Denny Garibay Condor</li>
-						<li>Edith Bautista</li>
-						<li>Faridy</li>
-						<li>Gilda Carpio Donayre</li>
-						<li>Maribel silvera lara</li>
-						<li>Nayeli Landa Garibay</li>
-						<li>Liz Carpio Donayre</li>
-						<li>Yessenia galindo</li>
-					</ul>
-					<img src="imagenes/maestrosSec.jpeg" alt="" />
-				</div>
-			</section>
-			<section id="secundaria" class="grado">
-				<h2 class="titulo">Secundaria</h2>
-				<div class="grado-int">
-					<ul class="lista">
-						<li class="curso">
-							Matemática:
-							<ul>
-								<li>Iván Loayza</li>
-								<li>Jhony Pisconte</li>
-							</ul>
-						</li>
-						<li class="curso">
-							Comunicación:
-							<ul>
-								<li>Carola Muñoz</li>
-								<li>Juan Carlos Mendoza</li>
-							</ul>
-						</li>
-						<li class="curso">
-							Historia:
-							<ul>
-								<li>Caloz Muñoz</li>
-							</ul>
-						</li>
-						<li class="curso">
-							P.F.RR.HH:
-							<ul>
-								<li>Carlos Muñoz</li>
-							</ul>
-						</li>
-					</ul>
-					<img src="imagenes/maestrosSec.jpeg" alt="" />
-				</div>
-			</section>
-		</main>
-		<footer>
-			<div class="contenedor-footer">
-				<div class="content-foo">
-					<h4>Telefono</h4>
-					<p>
-						(056) 522477
-						<br />
-						995 027 270
-					</p>
-				</div>
-				<div class="content-foo">
-					<h4>Email</h4>
-					<p>ejemplo@fp.ed.pe</p>
-				</div>
-				<div class="content-foo">
-					<h4>Ubicacion</h4>
-					<p>Calle Ignacio Morsesky N° 250</p>
-				</div>
-			</div>
-			<h2 class="titulo-final">&copy; Colegio Franco Peruano | Nasca</h2>
-			<div class="redes">
-				<a
-					href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
-					target="_blank"
-					rel="noopener noreferrer"
-					><i class="fab fa-facebook"></i
-				></a>
-			</div>
-		</footer>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maestros</title>
+    <link rel="stylesheet" href="estilos/normalize.css" />
+    <link rel="icon" href="imagenes/favicon.ico" type="image/png" />
+    <link rel="stylesheet" href="partialscss/footer.css" />
+    <link rel="stylesheet" href="partialscss/header.css" />
+    <script
+      src="https://kit.fontawesome.com/65b1cfe81d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="estilos/maestros.css" />
+    <link rel="stylesheet" href="grid/gridmaestros.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navegacion_contenedor">
+        <input type="checkbox" id="check" />
+        <label for="check" class="fas fa-align-justify" id="label"></label>
+        <nav class="navegacion">
+          <ul class="menu">
+            <li class="item"><a href="index.html">Inicio</a></li>
+            <li class="item"><a href="Noticias.html">Noticias</a></li>
+            <li class="item"><a href="informacion.html">Información</a></li>
+            <li class="item">
+              <a class="desplegar">Conócenos</a>
+              <ul class="submenu">
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="#">Maestros</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="textos-header">
+        <h1>Nuetros Maestros</h1>
+      </div>
+      <div class="wave" style="height: 30%; overflow: hidden">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%"
+        >
+          <path
+            d="M0.00,49.98 C180.86,154.44 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff"
+          ></path>
+        </svg>
+      </div>
+    </header>
+    <main class="contenedor">
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function () {
+          FB.init({
+            xfbml: true,
+            version: "v9.0",
+          });
+        };
+
+        (function (d, s, id) {
+          var js,
+            fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s);
+          js.id = id;
+          js.src =
+            "https://connect.facebook.net/es_LA/sdk/xfbml.customerchat.js";
+          fjs.parentNode.insertBefore(js, fjs);
+        })(document, "script", "facebook-jssdk");
+      </script>
+
+      <!-- Your Chat Plugin code -->
+      <div
+        class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="115253316977690"
+        theme_color="#20cef5"
+        logged_in_greeting="¡Hola! ¿Cómo puedo ayudarte?"
+        logged_out_greeting="¡Hola! ¿Cómo puedo ayudarte?"
+      ></div>
+      <section id="inicial" class="grado">
+        <h2 class="titulo">Inicial</h2>
+        <div class="grado-int">
+          <ul class="lista">
+            <li>Dodi</li>
+            <li>Liliana conde</li>
+            <li>Narda Calle cardenas</li>
+            <li>Raquel</li>
+            <li>Silvia</li>
+            <li>Isabel perez</li>
+            <li>Paulina Condes</li>
+            <li>Elizabeth</li>
+          </ul>
+          <img src="imagenes/maestrosSec.jpeg" alt="" />
+        </div>
+      </section>
+      <section id="primaria" class="grado">
+        <h2 class="titulo">Primaria</h2>
+        <div class="grado-int">
+          <ul class="lista">
+            <li>Carmen chiclla</li>
+            <li>Carmen Llamoca</li>
+            <li>Denny Garibay Condor</li>
+            <li>Edith Bautista</li>
+            <li>Faridy</li>
+            <li>Gilda Carpio Donayre</li>
+            <li>Maribel silvera lara</li>
+            <li>Nayeli Landa Garibay</li>
+            <li>Liz Carpio Donayre</li>
+            <li>Yessenia galindo</li>
+          </ul>
+          <img src="imagenes/maestrosSec.jpeg" alt="" />
+        </div>
+      </section>
+      <section id="secundaria" class="grado">
+        <h2 class="titulo">Secundaria</h2>
+        <div class="grado-int">
+          <ul class="lista">
+            <li class="curso">
+              Matemática:
+              <ul>
+                <li>Iván Loayza</li>
+                <li>Jhony Pisconte</li>
+              </ul>
+            </li>
+            <li class="curso">
+              Comunicación:
+              <ul>
+                <li>Carola Muñoz</li>
+                <li>Juan Carlos Mendoza</li>
+              </ul>
+            </li>
+            <li class="curso">
+              Historia:
+              <ul>
+                <li>Caloz Muñoz</li>
+              </ul>
+            </li>
+            <li class="curso">
+              P.F.RR.HH:
+              <ul>
+                <li>Carlos Muñoz</li>
+              </ul>
+            </li>
+          </ul>
+          <img src="imagenes/maestrosSec.jpeg" alt="" />
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Telefono</h4>
+          <p>
+            (056) 522477
+            <br />
+            995 027 270
+          </p>
+        </div>
+        <div class="content-foo">
+          <h4>Email</h4>
+          <p>ejemplo@fp.ed.pe</p>
+        </div>
+        <div class="content-foo">
+          <h4>Ubicacion</h4>
+          <p>Calle Ignacio Morsesky N° 250</p>
+        </div>
+      </div>
+      <h2 class="titulo-final">&copy; Colegio Franco Peruano | Nasca</h2>
+      <div class="redes">
+        <a
+          href="https://www.facebook.com/IEP-Franco-Peruano-de-Nasca-102634491423270/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fab fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
 </html>
